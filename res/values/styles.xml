@@ -1,0 +1,46 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/background_light</item>
+        <item name="android:colorBackground">@drawable/background_light</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:textAppearance">@style/TextViewStyle</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:textColor">@color/brown</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/button_color</item>
+    </style>
+
+    <style name="MyActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#800000</item>
+        <item name="android:titleTextStyle">@style/TitleColor</item>
+    </style>
+
+    <style name="TitleColor" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+
+</resources>

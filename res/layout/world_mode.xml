@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <ListView -->
+    <!-- android:id="@+id/my_view_listtypes" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="0dp" -->
+    <!-- android:layout_weight="1" > -->
+    <!-- </ListView> -->
+
+    <GridView
+        android:id="@+id/my_view_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="@dimen/grid_column_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/grid_spacing"
+        android:layoutMode="clipBounds"
+        android:numColumns="1"
+        android:scrollingCache="true"
+        android:soundEffectsEnabled="true"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/grid_spacing" >
+    </GridView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/my_view_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id"
+        android:paddingTop="@dimen/row_padding" />
+
+</LinearLayout>

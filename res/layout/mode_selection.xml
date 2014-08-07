@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/my_view_btnrelaxmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/level_selection_margin"
+            android:layout_marginRight="@dimen/level_selection_margin"
+            android:background="@drawable/relax_mode" />
+
+        <Button
+            android:id="@+id/my_view_btnworldmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/level_selection_margin"
+            android:layout_marginRight="@dimen/level_selection_margin"
+            android:background="@drawable/world_mode" />
+
+        <Button
+            android:id="@+id/my_view_btntimemode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/level_selection_margin"
+            android:layout_marginRight="@dimen/level_selection_margin"
+            android:background="@drawable/time_mode" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/my_view_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id"
+        android:paddingTop="@dimen/row_padding" />
+
+</RelativeLayout>

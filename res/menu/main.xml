@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lizard="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/my_view_menushare"
+        android:orderInCategory="1"
+        android:title="@string/share"
+        lizard:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        lizard:showAsAction="always"/>
+    <item
+        android:id="@+id/my_view_menuhelp"
+        android:icon="@drawable/ic_button_help"
+        android:orderInCategory="2"
+        android:title="@string/help"
+        lizard:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/my_view_menupoint"
+        android:icon="@drawable/ic_button_score"
+        android:orderInCategory="3"
+        android:title="@string/points"
+        lizard:showAsAction="ifRoom"/>
+
+</menu>

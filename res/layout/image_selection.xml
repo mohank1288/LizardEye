@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/my_view_lineartopheader"
+        layout="@layout/menu_top_header" />
+
+    <LinearLayout
+        android:id="@+id/alternate_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_padding_top"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/my_view_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnWidth="@dimen/grid_column_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/grid_spacing"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/grid_spacing" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/my_view_textcount"
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/brown" />
+
+        <Button
+            android:id="@+id/my_view_btnreplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/brown_yellow"
+            android:padding="@dimen/btn_padding"
+            android:text="@string/replay"
+            android:textColor="@color/brown"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

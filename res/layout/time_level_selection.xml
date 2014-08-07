@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/my_view_imagtimelevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/time2" />
+
+    <TextView
+        android:id="@+id/my_view_texttimelevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_view_imagtimelevel"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="@string/time2play"
+        android:textColor="@color/brown"
+        android:textSize="@dimen/time_level_size" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/my_view_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id"
+        android:paddingTop="@dimen/row_padding" />
+
+</RelativeLayout>

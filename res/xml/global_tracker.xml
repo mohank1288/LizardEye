@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- the Local LogLevel for Analytics -->
+	<string name="ga_logLevel">verbose</string>
+
+	<!-- how often the dispatcher should fire -->
+	<integer name="ga_dispatchPeriod">30</integer>
+
+	<!-- Treat events as test events and don't send to google -->
+	<bool name="ga_dryRun">false</bool>
+  	<integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.neel.icent.ui.activity.HelpActivity">
+       HelpActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.LevelSelectionActivity">
+       LevelSelectionActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.ModeSelectionActivity">
+       ModeSelectionActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.PointsActivity">
+       PointsActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.RelaxModeSearchActivity">
+       RelaxModeSearchActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.RelaxModeSelectionAcivity">
+       RelaxModeSelectionAcivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.SplashActivity">
+       SplashActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.TimeLevelSelectionActivity">
+       TimeLevelSelectionActivity 
+    </screenName>
+        <screenName name="com.neel.icent.ui.activity.ModeSelectionActivity">
+       ModeSelectionActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.TimeSearchActivity">
+       TimeSearchActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.TimeSelectionActivity">
+       TimeSelectionActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.WorldModeSearchActivity">
+       WorldModeSearchActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.WorldSelectionActivity">
+       WorldSelectionActivity 
+    </screenName>
+    <screenName name="com.neel.icent.ui.activity.TimeLevelSelectionActivity">
+       TimeLevelSelectionActivity 
+    </screenName>
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-51158678-1</string>
+</resources>

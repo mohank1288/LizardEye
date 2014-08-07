@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lizard.eyes"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.lizard.eye.circularimageview.RoundedImageView
+        android:id="@+id/my_view_imgsearch"
+        android:layout_width="@dimen/btn_img_width_height"
+        android:layout_height="@dimen/btn_img_width_height"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_ball1"
+        app:border_color="@color/circle_color"
+        app:border_width="@dimen/border_width"
+        app:oval="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/my_view_btngo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_button_play"
+            android:text="@string/go" />
+    </LinearLayout>
+
+</RelativeLayout>

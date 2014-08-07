@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstIndicatorColor" format="color" />
+        <attr name="pstUnderlineColor" format="color" />
+        <attr name="pstDividerColor" format="color" />
+        <attr name="pstIndicatorHeight" format="dimension" />
+        <attr name="pstUnderlineHeight" format="dimension" />
+        <attr name="pstDividerPadding" format="dimension" />
+        <attr name="pstTabPaddingLeftRight" format="dimension" />
+        <attr name="pstScrollOffset" format="dimension" />
+        <attr name="pstTabBackground" format="reference" />
+        <attr name="pstShouldExpand" format="boolean" />
+        <attr name="pstTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+</resources>

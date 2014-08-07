@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/my_view_btnfirstlevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/level_selection_margin"
+                android:layout_marginRight="@dimen/level_selection_margin"
+                android:layout_marginTop="@dimen/level_selection_margintop"
+                android:background="@drawable/first"
+                android:text="@string/firstlevel"
+                android:textColor="@color/button_color"
+                android:textSize="@dimen/btn_level_text_size" />
+
+            <Button
+                android:id="@+id/my_view_btnsecondlevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/level_selection_margin"
+                android:layout_marginRight="@dimen/level_selection_margin"
+                android:layout_marginTop="@dimen/level_selection_margintop"
+                android:background="@drawable/second"
+                android:text="@string/secondlevel"
+                android:textColor="@color/button_color"
+                android:textSize="@dimen/btn_level_text_size" />
+
+            <Button
+                android:id="@+id/my_view_btnthirdlevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/level_selection_margin"
+                android:layout_marginRight="@dimen/level_selection_margin"
+                android:layout_marginTop="@dimen/level_selection_margintop"
+                android:background="@drawable/third"
+                android:text="@string/thirdlevel"
+                android:textColor="@color/button_color"
+                android:textSize="@dimen/btn_level_text_size" />
+
+            <Button
+                android:id="@+id/my_view_btnfourthlevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/level_selection_margin"
+                android:layout_marginRight="@dimen/level_selection_margin"
+                android:layout_marginTop="@dimen/level_selection_margintop"
+                android:background="@drawable/fourth"
+                android:text="@string/fourthlevel"
+                android:textColor="@color/button_color"
+                android:textSize="@dimen/btn_level_text_size" />
+
+            <Button
+                android:id="@+id/my_view_btnfifthlevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/level_selection_margin"
+                android:layout_marginRight="@dimen/level_selection_margin"
+                android:layout_marginTop="@dimen/level_selection_margintop"
+                android:background="@drawable/fifth"
+                android:text="@string/fifthlevel"
+                android:textColor="@color/button_color"
+                android:textSize="@dimen/btn_level_text_size" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/my_view_adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/admob_id"
+        android:paddingTop="@dimen/row_padding" />
+
+</RelativeLayout>

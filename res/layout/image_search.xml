@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lizard.eyes"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_view_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:layout_alignParentTop="true"
+        layout="@layout/menu_top_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.lizard.eye.circularimageview.RoundedImageView
+                android:id="@+id/my_view_imgsearch1"
+                android:layout_width="@dimen/btn_img_width_height"
+                android:layout_height="@dimen/btn_img_width_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                app:border_color="@color/circle_color"
+                app:border_width="@dimen/border_width"
+                app:oval="true" />
+
+            <com.lizard.eye.circularimageview.RoundedImageView
+                android:id="@+id/my_view_imgsearch2"
+                android:layout_width="@dimen/btn_img_width_height"
+                android:layout_height="@dimen/btn_img_width_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                app:border_color="@color/circle_color"
+                app:border_width="@dimen/border_width"
+                app:oval="true" />
+
+            <com.lizard.eye.circularimageview.RoundedImageView
+                android:id="@+id/my_view_imgsearch3"
+                android:layout_width="@dimen/btn_img_width_height"
+                android:layout_height="@dimen/btn_img_width_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                app:border_color="@color/circle_color"
+                app:border_width="@dimen/border_width"
+                app:oval="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.lizard.eye.circularimageview.RoundedImageView
+                android:id="@+id/my_view_imgsearch4"
+                android:layout_width="@dimen/btn_img_width_height"
+                android:layout_height="@dimen/btn_img_width_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                app:border_color="@color/circle_color"
+                app:border_width="@dimen/border_width"
+                app:oval="true" />
+
+            <com.lizard.eye.circularimageview.RoundedImageView
+                android:id="@+id/my_view_imgsearch5"
+                android:layout_width="@dimen/btn_img_width_height"
+                android:layout_height="@dimen/btn_img_width_height"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                app:border_color="@color/circle_color"
+                app:border_width="@dimen/border_width"
+                app:oval="true" />
+
+            <com.lizard.eye.circularimageview.RoundedImageView
+                android:layout_width="@dimen/btn_img_width_height"
+                android:layout_height="@dimen/btn_img_width_height"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:visibility="invisible"
+                app:border_color="@color/circle_color"
+                app:border_width="@dimen/border_width"
+                app:oval="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- <com.google.android.gms.ads.AdView -->
+    <!-- android:id="@+id/my_view_adView" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:layout_gravity="center_horizontal" -->
+    <!-- ads:adSize="BANNER" -->
+    <!-- ads:adUnitId="@string/admob_id" -->
+    <!-- android:paddingTop="@dimen/row_padding" /> -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/my_view_textcount"
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/brown" />
+
+        <Button
+            android:id="@+id/my_view_btngo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_button_play"
+            android:paddingLeft="50dp"
+            android:text="@string/go" />
+    </RelativeLayout>
+
+</RelativeLayout>

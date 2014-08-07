@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lizard.eye.circularimageview.RoundedImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.lizard.eyes"
+    android:id="@+id/my_view_imgsearch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:adjustViewBounds="true"
+    android:padding="5dp"
+    android:scaleType="fitCenter"
+    app:border_color="@color/circle_color"
+    app:border_width="@dimen/border_width"
+    app:oval="true" />

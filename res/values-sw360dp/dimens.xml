@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="btn_img_width_height">75dp</dimen>
+    <dimen name="grid_column_width">75dp</dimen>
+    <dimen name="tab_text_size">18sp</dimen>
+    
+</resources>

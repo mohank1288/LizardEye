@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/row_padding" >
+
+    <ImageView
+        android:id="@+id/my_view_imgmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/unavailable01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/my_view_imgmenu"
+        android:layout_alignTop="@+id/my_view_imgmenu"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_lock_icon"
+        android:visibility="visible" />
+
+</RelativeLayout>

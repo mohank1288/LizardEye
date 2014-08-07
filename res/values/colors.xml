@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="brown">#4D0000</color>
+    <color name="brown_yellow">#F9BA54</color>
+    <color name="circle_color">#A42626</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="cornflowerblue">#6495ED</color>
+    <color name="indianred">#CD5C5C</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="slategrey">#708090</color>
+    <color name="palevioletred">#D87093</color>
+    <color name="seagreen">#2E8B57</color>
+    <color name="teal">#008080</color>
+    <color name="orangered">#FF4500</color>
+    <color name="olivedrab">#688E23</color>
+    <color name="indigo">#4B0082</color>
+    <color name="mediumpurple">#9370DB</color>
+    <color name="crimson">#DC143C</color>
+    <color name="red">#FF0000</color>
+    <color name="darkcyan">#008B8B</color>
+    <color name="deepskyblue">#00BFFF</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="mediumorchid">#BA55D3</color>
+    <color name="magneta">#FF00FF</color>
+    <color name="dodgerblue">#1E90FF</color>
+    <color name="deeppink">#FF1493</color>
+    <color name="yellowGreen">#9ACD32</color>
+    <color name="forestgreen">#228B22</color>
+
+</resources>
